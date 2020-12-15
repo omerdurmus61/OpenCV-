@@ -24,4 +24,4 @@ img = cv2.resize(img,(1000,1000), interpolation=cv2.INTER_AREA)
 
 cv2.imshow("pencere",img)
 cv2.waitKey(0)
-cv2.destroyAllWindows
+cv2.destroyAllWindows()
