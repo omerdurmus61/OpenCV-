@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import requests
 
-url = "http://192.168.1.21:8080//shot.jpg"
+url = "url girilecek"
 
 while True:
 
