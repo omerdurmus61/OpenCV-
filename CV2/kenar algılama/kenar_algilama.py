@@ -14,7 +14,7 @@ plt.figure(),plt.imshow(edges,cmap="gray"),plt.axis("off")
 med_val = np.median(img)
 print(med_val)
 
-# low ve high threshold için riteratürde şöyle bir kullanım vardır.
+# low ve high threshold için literatürde şöyle bir kullanım vardır.
 
 low = int(max(0,(1 - 0.33)*med_val))
 
