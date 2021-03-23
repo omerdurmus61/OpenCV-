@@ -13,7 +13,7 @@ while True:
     #threshold için en mantıklı değer resmin medyanıdır
     med_val = np.median(frame)
     
-    # low ve high threshold için riteratürde şöyle bir kullanım vardır.
+    # low ve high threshold için literatürde şöyle bir kullanım vardır.
 
     low = int(max(0,(1 - 0.33)*med_val))
 
