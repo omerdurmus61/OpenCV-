@@ -14,13 +14,13 @@ for file in os.listdir(path):
     img = cv2.imread(file)
     
     
-    #Blur
+    #Bluring
     img = cv2.blur(img,ksize = (5,5))
     
-    #Genişletme
+    #dilation
     #img = cv2.dilate(img,kernel,iterations = 1)
     
-    #Erozyon 
+    #erosion 
     #img = cv2.erode(img,kernel,iterations = 1)
     
     
