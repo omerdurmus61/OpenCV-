@@ -1,2 +1,2 @@
 # OpenCV-
-OpenCV  Denemeleri
+Computer vision and image processing with OpenCV  
